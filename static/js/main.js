@@ -10,12 +10,14 @@ $(document).ready(function () {
     } else {
       module.slideDown("fast");
     }
+    module.toggleClass("popup-show");
   });
 
   $("#doEmbedMedia").click(function () {
     var padeditor = require('ep_etherpad-lite/static/js/pad_editor').padeditor;
 
     $("#embedMediaModal").slideUp("fast");
+    $("#embedMediaModal").removeClass("popup-show");
 
     return padeditor.ace.callWithAce(function (ace) {
       var rep = ace.ace_getRep();
@@ -27,5 +29,6 @@ $(document).ready(function () {
 
   $("#cancelEmbedMedia").click(function () {
     $("#embedMediaModal").slideUp("fast");
+    $("#embedMediaModal").removeClass("popup-show");
   });
 });

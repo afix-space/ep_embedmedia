@@ -6,9 +6,17 @@
   z-index:999999;
 }
 
+#embedMediaSrc {
+  max-width: 100%;
+}
+
 .embedMediaButton {
   padding:10px;
 }
+
+#doEmbedMedia{
+  color:blue;
+} 
 
 #cancelEmbedMedia{
   color:red;
@@ -19,6 +27,6 @@
 }
 
 .buttonicon-embed-media:before{
-  content:"\e80b";
+  content:"\e83b";
   top: 2px !important;
 }

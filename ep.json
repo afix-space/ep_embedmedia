@@ -5,6 +5,7 @@
       "hooks": {
 	"eejsBlock_editbarMenuLeft": "ep_embedmedia/hooks:eejsBlock_editbarMenuLeft",
 	"eejsBlock_scripts": "ep_embedmedia/hooks:eejsBlock_scripts",
+	"eejsBlock_timesliderBody": "ep_embedmedia/hooks:eejsBlock_scripts",
 	"eejsBlock_styles": "ep_embedmedia/hooks:eejsBlock_styles",
 	"eejsBlock_body": "ep_embedmedia/hooks:eejsBlock_body"
       },
